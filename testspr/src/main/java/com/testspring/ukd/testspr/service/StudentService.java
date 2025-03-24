@@ -7,7 +7,7 @@ import com.testspring.ukd.testspr.repository.StudentRepository;
 public class StudentService {
     public StudentRepository studentDB = new StudentRepository();
 
-    public List<Student> getAllUsers() {
+    public List<Student> getAllStudents() {
         return studentDB.getAllStudents();
     }
 }
