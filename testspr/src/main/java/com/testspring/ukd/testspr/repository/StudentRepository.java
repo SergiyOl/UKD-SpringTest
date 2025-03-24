@@ -14,7 +14,7 @@ public class StudentRepository {
         students.add(new Student(2, "Kate", 17));
     }
 
-    public List<Student> getAllUsers() {
+    public List<Student> getAllStudents() {
         return students;
     }
 }
