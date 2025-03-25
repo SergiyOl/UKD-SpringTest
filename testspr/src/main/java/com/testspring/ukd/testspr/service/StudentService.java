@@ -10,4 +10,20 @@ public class StudentService {
     public List<Student> getAllStudents() {
         return studentDB.getAllStudents();
     }
+
+    public void addStudent(int id, String name, int age) {
+        studentDB.addStudent(id, name, age);
+    }
+
+    public List<Student> findStudentById(int id) {
+        return studentDB.findStudentById(id);
+    }
+
+    public void deleteStudentById(int id) {
+        studentDB.deleteStudentById(id);
+    }
+
+    public void updateStudent(int id, String name, int age) {
+        studentDB.updateStudent(id, name, age);
+    }
 }
